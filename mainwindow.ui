@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="list_Scoreboard">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>50</y>
+      <width>381</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="tabKeyNavigation">
+     <bool>false</bool>
+    </property>
+    <property name="uniformItemSizes">
+     <bool>false</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>10</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 20pt &quot;URW Bookman L&quot;;
+color: rgb(204, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Scoreboard</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Start">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>470</y>
+      <width>111</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 12pt &quot;URW Bookman L&quot;;
+background-color: rgb(115, 210, 22);
+color: rgb(85, 87, 83);</string>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>420</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 15pt &quot;URW Bookman L&quot;;
+color: rgb(204, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Settings:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 26pt &quot;URW Bookman L&quot;;
+color: rgb(204, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Bulls And Cows</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>190</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 20pt &quot;URW Bookman L&quot;;
+color: rgb(204, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>HELP DESK</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>310</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>350</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>360</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);
+</string>
+    </property>
+    <property name="text">
+     <string>Cows</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>310</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);
+
+</string>
+    </property>
+    <property name="text">
+     <string>Don`t</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>240</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);
+
+</string>
+    </property>
+    <property name="text">
+     <string>#1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);
+</string>
+    </property>
+    <property name="text">
+     <string>#2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>240</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);
+</string>
+    </property>
+    <property name="text">
+     <string>#3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>240</y>
+      <width>58</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);
+</string>
+    </property>
+    <property name="text">
+     <string>#4</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>341</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Справка: Игра быки и коровы для игрока и бота без повторяющихся цифр. Играть предложено с ботами 3-х уровней сложности.&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Help Desk: здесь вы можете делать заметки по игре, на сам игровой процесс никак не влияет. &lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3-й бот: угадывает ваше число в среднем за 5 ходов&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2-й бот: угадывает ваше число в среднем за 7 ходов&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1-й бот: угадывает ваше число в среднем за 9-10 ходов&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>460</y>
+      <width>231</width>
+      <height>95</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);
+</string>
+         </property>
+         <property name="text">
+          <string>Bot level</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spin_Botlvl">
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>3</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);</string>
+         </property>
+         <property name="text">
+          <string>Write your number</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spin_YourNum">
+         <property name="minimum">
+          <number>1000</number>
+         </property>
+         <property name="maximum">
+          <number>9999</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>140</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QSpinBox" name="spin_Input">
+       <property name="minimum">
+        <number>1000</number>
+       </property>
+       <property name="maximum">
+        <number>9999</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_Input">
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 10pt &quot;URW Bookman L&quot;;
+background-color: rgb(252, 233, 79);
+color:rgb(85, 87, 83)</string>
+       </property>
+       <property name="text">
+        <string>Input</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>110</y>
+      <width>76</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 12pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);</string>
+       </property>
+       <property name="text">
+        <string>Turn №</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lbl_turnnum">
+       <property name="styleSheet">
+        <string notr="true">font: 75 italic 12pt &quot;URW Bookman L&quot;;
+color: rgb(85, 87, 83);</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>260</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_3"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_4"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
